@@ -111,8 +111,22 @@
 }
 
 /*OTHER*/
+* {
+  box-sizing: border-box;
+}
+
 .wrapper {
+  max-width: 1960px;
+  overflow: hidden;
   padding: 0 160px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  padding-top: 55px;
 }
 
 /*# sourceMappingURL=variables.css.map */
