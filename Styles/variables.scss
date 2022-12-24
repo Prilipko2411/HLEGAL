@@ -137,10 +137,8 @@ $bold: 700;
 /*OTHER*/
 
 .wrapper {
-  max-width: 1960px;
-  overflow: hidden;
   padding: 0 160px;
-  height: 2266px;
+
 }
 
 .center {
@@ -151,6 +149,7 @@ $bold: 700;
 
 body {
   font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
 }
 
 /*HEADER*/
@@ -158,7 +157,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding-top: 55px;
+  padding-top: 50px;
   .r-area-header {
     .t-box-r-box-header {
       display: flex;
@@ -200,13 +199,14 @@ body {
       background-color: $grey-separator;
       border-radius: 50%;
     }
-    .b-box-r-box-header {
+    .b-box-r-box-header a {
       display: flex;
       justify-content: end;
       gap: 15px;
       padding-top: 16px;
       font-weight: $bold;
       color: $basic-white;
+      text-decoration: none;
     }
   }
 }
