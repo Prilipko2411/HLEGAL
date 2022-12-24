@@ -125,13 +125,14 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
 }
 
 /*HEADER*/
 .header {
   display: flex;
   justify-content: space-between;
-  padding-top: 55px;
+  padding-top: 50px;
 }
 .header .r-area-header .t-box-r-box-header {
   display: flex;
@@ -171,13 +172,14 @@ body {
   background-color: #E6E6F0;
   border-radius: 50%;
 }
-.header .r-area-header .b-box-r-box-header {
+.header .r-area-header .b-box-r-box-header a {
   display: flex;
   justify-content: end;
   gap: 15px;
   padding-top: 16px;
   font-weight: 700;
   color: #FFFFFF;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=variables.css.map */
